@@ -55,7 +55,7 @@ class RCTVideo: UIView, RCTVideoPlayerViewControllerDelegate, RCTPlayerObserverH
     private var _preferredForwardBufferDuration: Float = 0.0
     private var _playWhenInactive = false
     private var _ignoreSilentSwitch: String! = "inherit" // inherit, ignore, obey
-    private var _mixWithOthers: String! = "inherit" // inherit, mix, duck
+    private var _mixWithOthers: String! = "mix" // inherit, mix, duck
     private var _resizeMode: String! = "cover"
     private var _fullscreen = false
     private var _fullscreenAutorotate = true
